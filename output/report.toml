@@ -1,0 +1,34 @@
+[case1]
+verNum = 3
+toRunVers = []
+done = true
+runMethod = 0
+badVer = "10c8b80"
+casePaths = []
+progPath = "D:\\program\\Python\\AutoCheckErrVer\\input\\prog"
+retPath = "D:\\program\\Python\\AutoCheckErrVer\\output"
+exeName = "test.exe"
+
+[case1.vers.verIdx_0]
+ver = "b7286efd3ff2458bbcb35358e51ec23780e5480e"
+verTag = "b7286efd3ff2458bbcb35358e51ec23780e5480e"
+run = 4
+ret = 1
+process = "<Popen: returncode: 1 args: ['./test.exe']>"
+retPath = "D:\\program\\Python\\AutoCheckErrVer\\output\\Result\\case1\\b7286efd3ff2458bbcb35358e51ec23780e5480e"
+
+[case1.vers.verIdx_1]
+ver = "86f36bc"
+verTag = "86f36bc"
+run = 4
+ret = 1
+process = "<Popen: returncode: 1 args: ['./test.exe']>"
+retPath = "D:\\program\\Python\\AutoCheckErrVer\\output\\Result\\case1\\86f36bc"
+
+[case1.vers.verIdx_2]
+ver = "10c8b80"
+verTag = "10c8b80"
+run = 4
+ret = 2
+process = "<Popen: returncode: 1 args: ['./test.exe']>"
+retPath = "D:\\program\\Python\\AutoCheckErrVer\\output\\Result\\case1\\10c8b80"
